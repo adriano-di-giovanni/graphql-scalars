@@ -1,0 +1,27 @@
+{
+  "name": "graphql-scalars",
+  "version": "0.0.0",
+  "description": "Custom scalars for GraphQL",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriano-di-giovanni/graphql-scalars.git"
+  },
+  "keywords": [
+    "graphql",
+    "type",
+    "scalar",
+    "date",
+    "email",
+    "url"
+  ],
+  "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adriano-di-giovanni/graphql-scalars/issues"
+  },
+  "homepage": "https://github.com/adriano-di-giovanni/graphql-scalars#readme"
+}
