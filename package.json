@@ -8,7 +8,8 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "clean": "rimraf dist",
-    "build": "babel src --ignore *.test.js --out-dir dist"
+    "build": "babel src --ignore *.test.js --out-dir dist",
+    "prepublish": "npm run lint && npm run test:coverage && npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
