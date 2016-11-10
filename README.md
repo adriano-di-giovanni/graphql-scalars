@@ -16,9 +16,9 @@ npm install graphql-scalars --save
 
 This custom scalar for GraphQL parses any integer, float, string or date value to javascript dates.
 
-`GraphQLDate` uses `new Date()` to parse values so, please refer to [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) for more details.
+`GraphQLDate` uses `new Date()` to parse values so, please refer to the  [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) for more details.
 
-`GraphQLDate` serialize dates to ISO 8601 strings.
+`GraphQLDate` serializes dates to ISO 8601 strings.
 
 ### Usage
 
