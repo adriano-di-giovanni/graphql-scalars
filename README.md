@@ -5,6 +5,7 @@ Custom scalars for GraphQL.
 Currently available scalars:
 
 * [GraphQLDate](#GraphQLDate)
+* [GraphQLEmailAddress](#GraphQLEmailAddress)
 
 ## Installation
 
@@ -95,6 +96,11 @@ graphql(schema, query)
     console.log(isoString) // 1978-05-02T00:00:00.000Z
   })
 ```
+
+## GraphQLEmailAddress <a name="GraphQLEmailAddress" />
+
+`GraphQLEmailAddress` uses the regular expression as per HTML5 specification to
+validate input email addresses.
 
 ## License
 
