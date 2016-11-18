@@ -5,3 +5,9 @@
 ### Added
 
 * `GraphQLEmailAddress`
+
+## 0.1.2 - 2016-11-18
+
+### Fixed
+
+* Package definition to include `dist/` folder
