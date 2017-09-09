@@ -18,3 +18,9 @@
 
 * Package definition to list `graphql` in `devDependencies` and
 `peerDependencies`.
+
+## 0.1.4 - 2017-09-09
+
+### Fixed
+
+* Fix [#1](https://github.com/adriano-di-giovanni/graphql-scalars/issues/1). Thanks, [@biomorgoth](https://github.com/biomorgoth)

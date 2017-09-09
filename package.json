@@ -1,6 +1,6 @@
 {
   "name": "graphql-scalars",
-  "version": "0.1.3",
+  "version": "0.1.4 ",
   "description": "Custom scalars for GraphQL",
   "main": "dist/index.js",
   "scripts": {
