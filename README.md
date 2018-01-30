@@ -1,11 +1,12 @@
 # graphql-scalars
 
-Custom scalars for GraphQL.
+> Custom [scalars](http://graphql.org/learn/schema/#scalar-types) for GraphQL.
 
 Currently available scalars:
 
 * [GraphQLDate](#GraphQLDate)
 * [GraphQLEmailAddress](#GraphQLEmailAddress)
+* [GraphQLURL](#GraphQLURL)
 
 ## Installation
 
@@ -101,6 +102,10 @@ graphql(schema, query)
 
 `GraphQLEmailAddress` uses the regular expression as per HTML5 specification to
 validate input email addresses.
+
+## GraphQLURL <a name="GraphQLURL" />
+
+`GraphQLURL` uses the [regular expression](https://gist.github.com/dperini/729294) by [Diego Perini](https://github.com/dperini).
 
 ## License
 

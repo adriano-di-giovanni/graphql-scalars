@@ -24,3 +24,9 @@
 ### Fixed
 
 * Fix [#1](https://github.com/adriano-di-giovanni/graphql-scalars/issues/1). Thanks, [@biomorgoth](https://github.com/biomorgoth)
+
+## 0.1.5 - 2018-01-30
+
+### Added
+
+* `GraphQLURL` scalar. Thanks [@dperini](https://github.com/dperini).
